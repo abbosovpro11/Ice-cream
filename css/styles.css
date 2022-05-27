@@ -1,0 +1,260 @@
+/* fredoka-one-regular - latin */
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* hind-madurai-500 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/hind-madurai-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-madurai-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-regular - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-madurai-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-600 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-madurai-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-madurai-700 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-madurai-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', monospace;
+    font-size: 16px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header {
+    background-color: yellow;
+}
+
+main {
+}
+/* _____________hero______________ */
+.hero {
+    background: rgba(242, 206, 218, 0.3);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("./../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 300px) calc(50%);
+}
+
+
+.hero-container {
+}
+
+.hero-left-wrapper {
+    max-width: 665px;
+    width: 100%;
+}
+
+.hero-heading {
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.hero-text {
+    max-width: 523px;
+    width: 100%;
+    font-family: 'Hind Madurai';
+    font-size: 18px;
+    line-height: 27px; 
+    color: #0F0101; 
+    opacity: 0.6;
+    margin: 0;
+}
+
+/* ________________________ */
+.product {
+}
+
+.product-container {
+}
+
+.product-heading {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.product-type-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.product-type-item {
+    
+}
+
+.product-type-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 0.6;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.product-type-link-active {
+    position: relative;
+    opacity: 1;
+    /* border-bottom: 3px solid #D64374; */
+}
+
+.product-type-link-active::before {
+    content: "";
+    display: inline-block;
+    width: calc(100% + 20px);
+    height: 2px;
+    background-color: #D64374;
+    border-radius: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(20deg);
+    z-index: 1;
+}
+
+
+
+.product-list {
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+.product-img {
+    width: 580px;
+    height: 415px;
+    object-fit: contain;
+}
+
+.product-info {
+    width: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-item:nth-child(2n) .product-info {
+    order: -1;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.product-item-heading {
+}
+
+.product-item-text {
+}
